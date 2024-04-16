@@ -6,4 +6,5 @@ export default defineConfig({
   base: '/Soft-agency/',
   
   plugins: [react()],
+  base: '/Soft-agency/',
 })
