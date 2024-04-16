@@ -1,0 +1,35 @@
+.blur-circle {
+  filter: blur(105px);
+}
+
+@keyframes slide-vertical {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-90px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-vertical-reverse {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(90px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.animate-slide-vertical {
+  animation: slide-vertical 4s ease infinite;
+}
+
+.animate-slide-vertical-reverse {
+  animation: slide-vertical-reverse 4s ease infinite;
+}
