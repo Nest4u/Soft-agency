@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nest4u.github.io/Soft-agency",
+  "homepage": "https://nest4u.github.io/Softagency",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
